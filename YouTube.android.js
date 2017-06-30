@@ -12,7 +12,7 @@ import ReactNative, {
   requireNativeComponent,
   UIManager,
   NativeModules,
-  BackHandler,
+  BackAndroid,
   BackHandler as BackHandlerModule,
 } from 'react-native';
 
