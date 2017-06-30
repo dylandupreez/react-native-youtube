@@ -13,7 +13,6 @@ import {
 import YouTube from 'react-native-youtube';
 
 class RCTYouTubeExample extends React.Component {
-
   state = {
     isReady: false,
     status: null,
@@ -209,9 +208,7 @@ class RCTYouTubeExample extends React.Component {
 
 const styles = StyleSheet.create({
   container: {
-    paddingVertical: 10,
-    flex: 1,
-    backgroundColor: '#F5FCFF',
+    backgroundColor: 'white',
   },
   welcome: {
     fontSize: 20,
@@ -242,7 +239,6 @@ const styles = StyleSheet.create({
   player: {
     height: PixelRatio.roundToNearestPixel(Dimensions.get('window').width / (16 / 9)),
     alignSelf: 'stretch',
-    backgroundColor: 'black',
     marginVertical: 10,
   },
 });
